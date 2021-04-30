@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Jibin.Np/IdeaProjects/Ajio(failed)">
+    <classes>
+      <class name="VerifyMenu">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="SearchP"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- VerifyMenu -->
+      <class name="SearchUnavailableProduct">
+        <methods>
+          <include name="SearchP"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- SearchUnavailableProduct -->
+      <class name="SortByHigh">
+        <methods>
+          <include name="SearchP"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- SortByHigh -->
+      <class name="ProceedShip">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="SearchP"/>
+        </methods>
+      </class> <!-- ProceedShip -->
+      <class name="VerifyFooter">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SearchP"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- VerifyFooter -->
+      <class name="SearchBrand">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="SearchP"/>
+        </methods>
+      </class> <!-- SearchBrand -->
+      <class name="SortByLow">
+        <methods>
+          <include name="SearchP"/>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- SortByLow -->
+      <class name="SearchProduct">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="SearchP"/>
+        </methods>
+      </class> <!-- SearchProduct -->
+      <class name="VerifyUrl">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="SearchP"/>
+        </methods>
+      </class> <!-- VerifyUrl -->
+      <class name="AddToBag">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SearchP"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- AddToBag -->
+    </classes>
+  </test> <!-- C:/Users/Jibin.Np/IdeaProjects/Ajio(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Jibin.Np/IdeaProjects/Ajio">
+        <classes>
+            <class name="SearchProduct"/>
+            <class name="SearchUnavailableProduct"/>
+           <class name="AddToBag"/>
+            <class name="SearchBrand"/>
+           <!--  <class name="VerifyMenu"/>
+            <class name="SortByHigh"/>
+            <class name="SortByLow"/>
+            <class name="VerifyFooter"/>
+            <class name="VerifyUrl"/>
+            <class name="ProceedShip"/>-->
+
+
+        </classes>
+    </test>
+</suite>
